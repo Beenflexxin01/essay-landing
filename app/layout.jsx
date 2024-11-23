@@ -5,7 +5,7 @@ import Header from "./components/Header";
 
 const satoshi = Poppins({
   weight: ["400", "700"],
-  subsets: ["lating"],
+  subsets: ["latin"],
 });
 
 export const metadata = {
