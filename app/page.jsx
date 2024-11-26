@@ -1,3 +1,4 @@
+import Browse from "./components/Browse";
 import Faqs from "./components/Faqs";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
@@ -11,7 +12,7 @@ function page() {
       <Hero />
       <SkilledWriter />
       <HowItWorks />
-
+      <Browse />
       <Faqs />
       <Testimonials />
       <Footer />

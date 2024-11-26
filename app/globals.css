@@ -325,3 +325,38 @@ li {
 .footer-nav {
   margin-left: 25rem;
 }
+
+.browse-grid-4 {
+  background-color: #fafafa;
+  width: 30rem;
+  height: 12rem;
+  border-radius: 1.2rem;
+  border: none;
+}
+
+.elipses-img {
+  display: flex;
+  align-items: center;
+  margin: 2.6rem 0;
+  position: relative;
+}
+
+.elip-text {
+  margin-left: 5rem;
+  color: #969191;
+  font-size: 1.4rem;
+}
+
+.elipse-description {
+  font-size: 2rem;
+  line-height: 2.8rem;
+}
+
+.elip--img {
+  position: absolute;
+  left: 1.8rem;
+}
+
+.elip-_img {
+ left: 3.4rem; 
+}
