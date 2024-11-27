@@ -1,9 +1,10 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
 import { Poppins } from "next/font/google";
-
+import Script from "next/script";
 import Header from "./components/Header";
 
-const satoshi = Poppins({
+const poppins = Poppins({
   weight: ["400", "700"],
   subsets: ["latin"],
 });
@@ -16,9 +17,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content={metadata.description} />
+        <title>{metadata.title}</title>
+      </head>
+      <body className={poppins.className}>
         <Header />
-        <main className={`${satoshi.className}`}>{children}</main>
+        <main>{children}</main>
       </body>
     </html>
   );

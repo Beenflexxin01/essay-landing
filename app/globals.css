@@ -23,6 +23,7 @@ li {
 .container {
   margin: 3rem;
   padding: 2rem;
+  max-width: 1440px;
 }
 
 .logo {
@@ -358,5 +359,31 @@ li {
 }
 
 .elip-_img {
- left: 3.4rem; 
+  left: 3.4rem;
+}
+
+.accordion-button {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fef5e91a;
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.accordion-item {
+  background-color: transparent;
+  border: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: transparent;
+  color: #fff;
+  box-shadow: none;
+}
+
+.accordion-button:after {
+  color: #fff;
+  fill: #fff;
+  stroke: #fff;
+  background-image: ;
 }

@@ -1,4 +1,42 @@
+"use client";
+
+import { useState } from "react";
+import Accordion from "react-bootstrap/Accordion";
+
 function Faqs() {
+  const faqData = [
+    {
+      question: "Can I sign up as an individual?",
+      answer:
+        "Yes, Essay9ja is open for individuals to sign up and start using our services.",
+    },
+    {
+      question: "What is Essay9ja's pricing?",
+      answer:
+        "Our pricing depends on the type of service you choose. Visit our pricing page for detailed information.",
+    },
+    {
+      question: "How do I contact support?",
+      answer:
+        "You can reach out to our support team via the Contact Us page or by emailing support@essay9ja.com.",
+    },
+    {
+      question: "Do you offer refunds?",
+      answer:
+        "Yes, refunds are available based on our refund policy. Please review the terms on our website.",
+    },
+    {
+      question: "Can I collaborate as a writer?",
+      answer:
+        "Yes, we welcome professional writers to join our platform. Contact us for more details.",
+    },
+  ];
+
+  const [openIndex, setOpenIndex] = useState(null);
+
+  const toggleAccordion = (index) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
   return (
     <>
       <div className="hero-container">
@@ -24,36 +62,18 @@ function Faqs() {
           </div>
 
           <div className="grid-2-cols">
-            <div className="faqs">
-              <p className="text-description hero-description">
-                Can I sign up as an individual?
-              </p>
-              <p className="text-description hero-description">+</p>
-            </div>
-            <div className="faqs">
-              <p className="text-description hero-description">
-                What is Essay9ja&apos;s pricing?
-              </p>
-              <p className="text-description hero-description">+</p>
-            </div>
-            <div className="faqs">
-              <p className="text-description hero-description">
-                What is Essay9ja&apos;s pricing?
-              </p>
-              <p className="text-description hero-description">+</p>
-            </div>
-            <div className="faqs">
-              <p className="text-description hero-description">
-                What is Essay9ja&apos;s pricing?
-              </p>
-              <p className="text-description hero-description">+</p>
-            </div>
-            <div className="faqs">
-              <p className="text-description hero-description">
-                What is Essay9ja&apos;s pricing?
-              </p>
-              <p className="text-description hero-description">+</p>
-            </div>
+            <Accordion>
+              {faqData.map((faq, index) => (
+                <Accordion.Item eventKey={index} key={index}>
+                  <Accordion.Header className=" hero-description">
+                    {faq.question}
+                  </Accordion.Header>
+                  <Accordion.Body className="text-description hero-description">
+                    {faq.answer}
+                  </Accordion.Body>
+                </Accordion.Item>
+              ))}
+            </Accordion>
           </div>
         </div>
       </div>
