@@ -79,7 +79,11 @@ li {
 .grid-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 10rem 0;
+  padding: 5rem 0 0 0;
+}
+
+.grid-2-cols {
+  margin: 0 2rem;
 }
 
 .primary-header {
@@ -181,6 +185,7 @@ li {
 .text-description {
   font-size: 1.4rem;
   line-height: 2.4rem;
+  /* margin: 0; */
 }
 
 .feature-grid-2-cols {
@@ -385,5 +390,76 @@ li {
   color: #fff;
   fill: #fff;
   stroke: #fff;
-  background-image: ;
+}
+
+.match-img {
+  display: flex;
+}
+
+.adekunle-grid {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.adekunle {
+  background-color: #fff;
+  padding: 3rem;
+  border: 0.83px solid #e0e0e0;
+  border-radius: 0.3rem;
+}
+
+.payment {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem 0;
+}
+
+.ade-btn {
+  display: flex;
+  gap: 3rem;
+  margin-left: auto;
+}
+
+.description {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.best-tag {
+  background-color: #005828;
+  color: #fff;
+  padding: 0.6rem;
+  border-radius: 3.16px;
+  width: 10rem;
+  height: 3rem;
+  position: relative;
+  top: 3rem;
+}
+
+.match {
+  position: relative;
+  bottom: 10.5rem;
+  left: 3.6rem;
+}
+
+.cover {
+  margin-left: 8rem;
+}
+
+.skill {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 0.3rem;
+  margin-top: 1.2rem;
+}
+
+.skill-text {
+  background-color: #eaeaea;
+  background-color: #edf5ff;
+  border: 1px solid #eaeaea;
+  height: 1.8rem;
+  border-radius: 0.5rem;
+  padding: 0 1rem;
+  font-size: 0.8rem;
 }

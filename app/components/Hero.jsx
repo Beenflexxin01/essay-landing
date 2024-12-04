@@ -1,3 +1,6 @@
+import Image from "next/image";
+import man from "../../public/Images/man.png";
+import verify from "../../public/Images/verify.png";
 function Hero() {
   return (
     <>
@@ -24,7 +27,122 @@ function Hero() {
             </div>
           </div>
 
-          <div className="grid-2-cols"></div>
+          <div className="grid-2-cols">
+            <div className="">
+              <div className="best-tag">
+                <p className="text-description">Best Match</p>
+              </div>
+              <div className="adekunle">
+                <div className="adekunle-grid">
+                  <div className="match-img">
+                    <Image src={man} alt="Title" className="best-img" />
+                    <Image src={verify} alt="Title" className="best-img" />
+                  </div>
+                  <div className="flex">
+                    <p className="text-description">Adekunle Adebanjo</p>
+                    <p className="title">Msc. PhD. of Psychology</p>
+                  </div>
+                  <div className="ade-btn">
+                    <button className="cta-btn  sign-">Message</button>
+                    <button className="cta-btn cta-btn-writer  sign-">
+                      Hire
+                    </button>
+                  </div>
+                </div>
+                <div className="cover">
+                  <div className="payment">
+                    <p className="amount">#1000/hr</p>
+                    <p className="amount">NGN 5M + Earned</p>
+                    <p className="amount">100+ Task Completed</p>
+                    <p className="amount amount-flex">
+                      5.0
+                      <svg
+                        width="10"
+                        height="10"
+                        viewBox="0 0 10 10"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M5.36393 0.710564C5.18625 0.404351 4.74404 0.40435 4.56636 0.710564L3.31502 2.86708C3.22725 3.01835 3.07553 3.12157 2.90261 3.14769L0.557517 3.50189C0.163642 3.56138 0.0254815 4.05868 0.332227 4.31282L2.07922 5.76019C2.24093 5.89416 2.31697 6.1055 2.27769 6.31179L1.8207 8.71167C1.74846 9.09104 2.14672 9.3858 2.48843 9.20588L4.69663 8.04317C4.8647 7.95467 5.06559 7.95467 5.23366 8.04317L7.44186 9.20588C7.78357 9.3858 8.18183 9.09104 8.10959 8.71167L7.6526 6.31179C7.61332 6.1055 7.68935 5.89416 7.85107 5.76019L9.59806 4.31282C9.90481 4.05868 9.76665 3.56138 9.37277 3.50189L7.02768 3.14769C6.85475 3.12157 6.70304 3.01835 6.61527 2.86708L5.36393 0.710564Z"
+                          fill="#ECC22B"
+                        />
+                      </svg>
+                    </p>
+                  </div>
+                  <p className="description">COVER LETTER</p>
+                  <p className="description">
+                    Our project aims to create advanced, non-invasive cancer
+                    dtection technology, combining AI, imaging, and biomarkers
+                    for early diagnosis. The promises to improve patient
+                    outcomes and reduce healthcare costs by detecting cancer at
+                    its most treatable stages.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="match">
+              <div className="best-tag">
+                <p className="text-description">Best Match</p>
+              </div>
+              <div className="adekunle">
+                <div className="adekunle-grid">
+                  <div className="match-img">
+                    <Image src={man} alt="Title" className="best-img" />
+                    <Image src={verify} alt="Title" className="best-img" />
+                  </div>
+                  <div className="flex">
+                    <p className="text-description">Adekunle Adebanjo</p>
+                    <p className="title">Msc. PhD. of Psychology</p>
+                  </div>
+                  <div className="ade-btn">
+                    <button className="cta-btn  sign-">Message</button>
+                    <button className="cta-btn cta-btn-writer  sign-">
+                      Hire
+                    </button>
+                  </div>
+                </div>
+                <div className="cover">
+                  <div className="payment">
+                    <p className="amount">#1000/hr</p>
+                    <p className="amount">NGN 5M + Earned</p>
+                    <p className="amount">100+ Task Completed</p>
+                    <p className="amount amount-flex">
+                      5.0
+                      <svg
+                        width="10"
+                        height="10"
+                        viewBox="0 0 10 10"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M5.36393 0.710564C5.18625 0.404351 4.74404 0.40435 4.56636 0.710564L3.31502 2.86708C3.22725 3.01835 3.07553 3.12157 2.90261 3.14769L0.557517 3.50189C0.163642 3.56138 0.0254815 4.05868 0.332227 4.31282L2.07922 5.76019C2.24093 5.89416 2.31697 6.1055 2.27769 6.31179L1.8207 8.71167C1.74846 9.09104 2.14672 9.3858 2.48843 9.20588L4.69663 8.04317C4.8647 7.95467 5.06559 7.95467 5.23366 8.04317L7.44186 9.20588C7.78357 9.3858 8.18183 9.09104 8.10959 8.71167L7.6526 6.31179C7.61332 6.1055 7.68935 5.89416 7.85107 5.76019L9.59806 4.31282C9.90481 4.05868 9.76665 3.56138 9.37277 3.50189L7.02768 3.14769C6.85475 3.12157 6.70304 3.01835 6.61527 2.86708L5.36393 0.710564Z"
+                          fill="#ECC22B"
+                        />
+                      </svg>
+                    </p>
+                  </div>
+                  <p className="description">COVER LETTER</p>
+                  <p className="description">
+                    Our project aims to create advanced, non-invasive cancer
+                    dtection technology, combining AI, imaging, and biomarkers
+                    for early diagnosis. The promises to improve patient
+                    outcomes and reduce healthcare costs by detecting cancer at
+                    its most treatable stages.
+                  </p>
+
+                  <div className="skill">
+                    <p className="skill-text">CV</p>
+                    <p className="skill-text">Master&apos;s Project</p>
+                    <p className="skill-text">Undergrad Thesis</p>
+                    <p className="skill-text">NCE Paper</p>
+                    <p className="skill-text">PhD Thesis</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className="features">
