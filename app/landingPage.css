@@ -404,7 +404,7 @@ li {
 
 .adekunle {
   background-color: #fff;
-  padding: 3rem;
+  padding: 0 3rem;
   border: 0.83px solid #e0e0e0;
   border-radius: 0.3rem;
 }
@@ -462,4 +462,9 @@ li {
   border-radius: 0.5rem;
   padding: 0 1rem;
   font-size: 0.8rem;
+}
+
+.testimonial-grid {
+  display: flex;
+  align-items: center;
 }

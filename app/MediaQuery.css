@@ -1,0 +1,165 @@
+@media (max-width: 90em) {
+  .main-nav-ul,
+  .normal-sec,
+  .cta-section {
+    margin: 2rem 5rem;
+  }
+
+  .hero-container {
+    padding: 2rem 4rem;
+  }
+
+  .grid-3 {
+    margin: 0;
+  }
+
+  .container {
+    margin: auto;
+  }
+}
+
+@media (max-width: 75em) {
+  .grid-3,
+  .grid-4 {
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  .grid-3::-webkit-scrollbar,
+  .grid-4::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .grid-3-cols {
+    margin: 2rem;
+  }
+
+  .testimonial-grid-4-cols {
+    margin: 1rem;
+    height: 90%;
+  }
+}
+
+@media (max-width: 75em) {
+  .grid-3,
+  .grid-4 {
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  .grid-3::-webkit-scrollbar,
+  .grid-4::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .grid-3-cols {
+    margin: 2rem;
+  }
+
+  .testimonial-grid-4-cols {
+    margin: 1rem;
+    height: 90%;
+  }
+}
+
+@media (max-width: 75em) {
+  .grid-3,
+  .grid-4,
+  .testimonial-grid {
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  .grid-3::-webkit-scrollbar,
+  .grid-4::-webkit-scrollbar,
+  .testimonial-grid::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .testimonial-grid {
+    flex-grow: 40rem;
+  }
+
+  .grid-3-cols {
+    margin: 2rem;
+  }
+
+  .testimonial-grid-4-cols {
+    margin: 1rem;
+    height: 90%;
+  }
+}
+
+@media (max-width: 64em) {
+  .grid-2 {
+    display: block;
+  }
+
+  .skill-img {
+    width: 100%;
+  }
+
+  .grid-2-cols {
+    margin: 1rem 0;
+    height: 100%;
+  }
+
+  .skill-ul {
+    padding: 0;
+  }
+
+  .cta-btn-writer {
+    width: 100%;
+  }
+
+  .features {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0;
+  }
+
+  .svg {
+    display: none;
+  }
+
+  .text-description {
+    text-align: start;
+  }
+
+  .footer-container {
+    height: 100%;
+    display: block;
+  }
+
+  .footer-ul {
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-grid-4,
+  .footer-nav {
+    margin: 1rem 0;
+  }
+
+  .socials {
+    margin: 0;
+  }
+
+  .socials-ul {
+    padding: 0;
+  }
+
+  .contact-btn {
+    width: 100%;
+    border-radius: 0.8rem;
+  }
+  .grid-3,
+  .grid-4 {
+    display: block;
+    overflow: hidden;
+  }
+  .grid-3-cols,
+  .grid-4-cols {
+    width: 96%;
+  }
+}

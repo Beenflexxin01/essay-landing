@@ -5,8 +5,8 @@ function Testimonials() {
         <h2 className="secondary-header work-header">
           Testimonials From Industry Leaders
         </h2>
-        <div className="grid-4">
-          <div className="grid-4-cols">
+        <div className="testimonial-grid">
+          <div className="grid-4-cols testimonial-grid-4-cols tt">
             <svg
               width="32"
               height="32"
@@ -39,7 +39,7 @@ function Testimonials() {
             <p className="text-description">University Student</p>
           </div>
 
-          <div className="grid-4-cols">
+          <div className="grid-4-cols testimonial-grid-4-cols">
             <svg
               width="32"
               height="32"
@@ -71,7 +71,7 @@ function Testimonials() {
             <p className="text-description">University Student</p>
           </div>
 
-          <div className="grid-4-cols">
+          <div className="grid-4-cols testimonial-grid-4-cols">
             <svg
               width="32"
               height="32"
@@ -104,7 +104,7 @@ function Testimonials() {
             <p className="text-description">University Student</p>
           </div>
 
-          <div className="grid-4-cols">
+          <div className="grid-4-cols testimonial-grid-4-cols">
             <svg
               width="32"
               height="32"
