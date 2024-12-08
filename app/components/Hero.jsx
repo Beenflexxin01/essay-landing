@@ -7,7 +7,7 @@ function Hero() {
       <div className="hero-container">
         <div className="grid-2">
           <div className="grid-2-cols">
-            <h1 className="primary-header">
+            <h1 className="primary-header hero-header">
               Your <span className="academic">Academic Success,</span> <br />{" "}
               Our Commitment
             </h1>
@@ -44,7 +44,7 @@ function Hero() {
                   </div>
                   <div className="ade-btn">
                     <button className="cta-btn  sign-">Message</button>
-                    <button className="cta-btn cta-btn-writer  sign-">
+                    <button className="cta-btn cta-btn-writer hire-btn  sign-">
                       Hire
                     </button>
                   </div>
@@ -97,7 +97,7 @@ function Hero() {
                   </div>
                   <div className="ade-btn">
                     <button className="cta-btn  sign-">Message</button>
-                    <button className="cta-btn cta-btn-writer  sign-">
+                    <button className="cta-btn cta-btn-writer hire-btn  sign-">
                       Hire
                     </button>
                   </div>

@@ -34,7 +34,7 @@ function SkilledWriter() {
               <span className="number">04</span>
               Get Paid
             </li>
-            <button className="cta-btn reg cta-btn-writer">
+            <button className="cta-btn reg cta-btn-writer ">
               Register as a writer
             </button>
           </ul>
