@@ -24,7 +24,6 @@
     overflow-x: scroll;
     overflow-y: hidden;
   }
-
   .grid-3::-webkit-scrollbar,
   .grid-4::-webkit-scrollbar {
     width: 0;
@@ -63,6 +62,9 @@
 }
 
 @media (max-width: 75em) {
+  /* .normal-sec {
+    margin-left: 15rem;
+  } */
   .grid-3,
   .grid-4,
   .testimonial-grid {
@@ -88,9 +90,55 @@
     margin: 1rem;
     height: 90%;
   }
+
+  .policy-text {
+    width: 90rem;
+  }
 }
 
 @media (max-width: 64em) {
+  .burger {
+    display: flex;
+    background-color: transparent;
+    justify-content: space-around;
+    flex-direction: column;
+    position: absolute;
+    left: 90%;
+    height: 4rem;
+    cursor: pointer;
+  }
+
+  .burger-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    position: absolute;
+    bottom: 87.6%;
+    width: 100%;
+    height: 100%;
+    align-items: start;
+    transition: all 0.3s linear;
+    opacity: 0;
+    /* z-index: 1; */
+    /* transform: translate(1%); */
+    transform: translateY(100%) translateX(-100%);
+  }
+
+  .normal-sec,
+  .cta-section {
+    flex-direction: column;
+    margin: 2rem 3rem;
+    align-items: start;
+  }
+
+  .burger-menu.open {
+    opacity: 100%;
+  }
+
+  .burger-menu {
+    padding: 0.8rem 1rem 2rem 1rem;
+  }
+
   .grid-2 {
     display: block;
   }
@@ -99,23 +147,36 @@
     width: 100%;
   }
 
+  .hero-container {
+    padding: 2rem;
+  }
+
   .grid-2-cols {
-    margin: 1rem 0;
-    height: 100%;
+    margin: 0;
+    /* height: 100%; */
+  }
+
+  .feature-grid-2-cols {
+    margin: 2rem 0;
   }
 
   .skill-ul {
     padding: 0;
   }
 
-  .cta-btn-writer {
+  .hire-btn {
     width: 100%;
+  }
+
+  .match {
+    left: 1rem;
   }
 
   .features {
     grid-template-columns: repeat(2, 1fr);
     padding: 0;
-    margin: 0 50rem;
+    margin: auto;
+    width: 70%;
   }
 
   .svg {
@@ -158,5 +219,34 @@
   .grid-3-cols,
   .grid-4-cols {
     width: 96%;
+  }
+}
+
+@media (max-width: 36em) {
+  .ade-btn,
+  .adekunle-grid {
+    gap: 0.5rem;
+  }
+
+  .features {
+    width: 100%;
+  }
+
+  .cover {
+    margin-left: 2rem;
+  }
+
+  .feature-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 28em) {
+  .adekunle {
+    padding: 3rem 0.5rem;
+  }
+
+  .sign- {
+    width: 100%;
   }
 }
