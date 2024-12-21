@@ -1,6 +1,6 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import "./landingPage.css";
-import "./MediaQuery.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
+// import "./landingPage.css";
+// import "./MediaQuery.css";
 import { Poppins } from "next/font/google";
 import Script from "next/script";
 import Header from "./components/Header";
