@@ -91,7 +91,7 @@ function Hero() {
                     <Image src={man} alt="Title" className="best-img" />
                     <Image src={verify} alt="Title" className="best-img" />
                   </div>
-                  <div className="flex">
+                  <div className="hero--flex">
                     <p className="text-description">Adekunle Adebanjo</p>
                     <p className="title">Msc. PhD. of Psychology</p>
                   </div>

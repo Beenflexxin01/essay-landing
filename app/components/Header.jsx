@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../../../public/Images/logo.png";
+import logo from "/Images/logo.png";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -50,7 +50,6 @@ function Header() {
         </div>
         <nav className="main-nav">
           <ul className="main-nav-ul">
-            {/* <div className={`burger-menu ${isOpen ? "open" : ""}`}> */}
             <div className={`burger-menu ${isOpen ? "open" : ""}`}>
               <div className="normal-sec">
                 <li className="main-nav-li">
