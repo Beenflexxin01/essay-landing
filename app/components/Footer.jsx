@@ -11,38 +11,58 @@ function Footer() {
           <ul className="footer-ul">
             <div className="footer-grid-4">
               <li className="footer-li">
-                <Link href="" className="footer-link">Contact Us</Link>
+                <Link href="" className="footer-link">
+                  Contact Us
+                </Link>
               </li>
               <li className="footer-li">
-                <Link href="" className="footer-link">Privacy Policy</Link>
+                <Link href="" className="footer-link">
+                  Privacy Policy
+                </Link>
               </li>
               <li className="footer-li">
-                <Link href="" className="footer-link">Help</Link>
-              </li>
-            </div>
-            <div className="footer-grid-4">
-              <li className="footer-li">
-                <Link href="" className="footer-link">About Us</Link>
-              </li>
-              <li className="footer-li">
-                <Link href="" className="footer-link">FAQs</Link>
-              </li>
-              <li className="footer-li">
-                <Link href="" className="footer-link">Pricing</Link>
-              </li>
-              <li className="footer-li">
-                <Link href="" className="footer-link">Blog</Link>
+                <Link href="" className="footer-link">
+                  Help
+                </Link>
               </li>
             </div>
             <div className="footer-grid-4">
               <li className="footer-li">
-                <Link href="" className="footer-link">Admin Account</Link>
+                <Link href="" className="footer-link">
+                  About Us
+                </Link>
               </li>
               <li className="footer-li">
-                <Link href="" className="footer-link">Log In</Link>
+                <Link href="" className="footer-link">
+                  FAQs
+                </Link>
               </li>
               <li className="footer-li">
-                <Link href="" className="footer-link">Create Account</Link>
+                <Link href="" className="footer-link">
+                  Pricing
+                </Link>
+              </li>
+              <li className="footer-li">
+                <Link href="" className="footer-link">
+                  Blog
+                </Link>
+              </li>
+            </div>
+            <div className="footer-grid-4">
+              <li className="footer-li">
+                <Link href="" className="footer-link">
+                  Admin Account
+                </Link>
+              </li>
+              <li className="footer-li">
+                <Link href="" className="footer-link">
+                  Log In
+                </Link>
+              </li>
+              <li className="footer-li">
+                <Link href="" className="footer-link">
+                  Create Account
+                </Link>
               </li>
             </div>
           </ul>
@@ -58,7 +78,7 @@ function Footer() {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g clip-path="url(#clip0_3647_5037)">
+                  <g clipPath="url(#clip0_3647_5037)">
                     <rect width="32" height="32" rx="16" fill="white" />
                     <path
                       fill-rule="evenodd"
@@ -83,7 +103,7 @@ function Footer() {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g clip-path="url(#clip0_3647_5041)">
+                  <g clipPath="url(#clip0_3647_5041)">
                     <rect width="32" height="32" rx="16" fill="white" />
                     <path
                       fill-rule="evenodd"
@@ -123,7 +143,7 @@ function Footer() {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g clip-path="url(#clip0_3647_5045)">
+                  <g clipPath="url(#clip0_3647_5045)">
                     <rect width="32" height="32" rx="16" fill="white" />
                     <path
                       fill-rule="evenodd"
@@ -148,7 +168,7 @@ function Footer() {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g clip-path="url(#clip0_3647_5049)">
+                  <g clipPath="url(#clip0_3647_5049)">
                     <rect width="32" height="32" rx="16" fill="white" />
                     <path
                       fill-rule="evenodd"
