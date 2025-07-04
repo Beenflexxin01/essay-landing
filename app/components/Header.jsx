@@ -18,31 +18,29 @@ function Header() {
         </li>
         <div
           className={`burger ${isOpen && "open"}`}
-          onClick={() => setIsOpen(!isOpen)}
-        >
+          onClick={() => setIsOpen(!isOpen)}>
           <svg
             width="40"
             height="40"
             viewBox="0 0 40 40"
             fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+            xmlns="http://www.w3.org/2000/svg">
             <rect width="40" height="40" rx="8" fill="#DFEBF9" />
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M27.75 20C27.75 19.5858 27.4142 19.25 27 19.25H13C12.5858 19.25 12.25 19.5858 12.25 20C12.25 20.4142 12.5858 20.75 13 20.75H27C27.4142 20.75 27.75 20.4142 27.75 20Z"
               fill="#023474"
             />
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M27.75 15C27.75 14.5858 27.4142 14.25 27 14.25H13C12.5858 14.25 12.25 14.5858 12.25 15C12.25 15.4142 12.5858 15.75 13 15.75H27C27.4142 15.75 27.75 15.4142 27.75 15Z"
               fill="#023474"
             />
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M27.75 25C27.75 24.5858 27.4142 24.25 27 24.25H13C12.5858 24.25 12.25 24.5858 12.25 25C12.25 25.4142 12.5858 25.75 13 25.75H27C27.4142 25.75 27.75 25.4142 27.75 25Z"
               fill="#023474"
             />
@@ -56,8 +54,7 @@ function Header() {
                   <Link
                     href="/writers"
                     className="main-nav-link"
-                    onClick={toggleOffMenuBar}
-                  >
+                    onClick={toggleOffMenuBar}>
                     Writers
                   </Link>
                 </li>
@@ -65,8 +62,7 @@ function Header() {
                   <Link
                     href="/users/tasks"
                     className="main-nav-link"
-                    onClick={toggleOffMenuBar}
-                  >
+                    onClick={toggleOffMenuBar}>
                     Post a Task
                   </Link>
                 </li>
@@ -82,16 +78,14 @@ function Header() {
                   <Link
                     href="/auth/login"
                     className="main-nav-link cta-btn"
-                    onClick={toggleOffMenuBar}
-                  >
+                    onClick={toggleOffMenuBar}>
                     Login for Users
                   </Link>
                 </li>
                 <li className="main-nav-li">
                   <Link
                     href="/writers"
-                    className="main-nav-link cta-btn cta-btn-writer"
-                  >
+                    className="main-nav-link cta-btn cta-btn-writer">
                     Sign Up as a Writer
                   </Link>
                 </li>

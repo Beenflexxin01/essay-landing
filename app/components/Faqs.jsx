@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 import Accordion from "react-bootstrap/Accordion";
 
@@ -57,7 +58,9 @@ function Faqs() {
               </p>
             </div>
             <div className="contact-button">
-              <button className="cta-btn contact-btn">Contact Us</button>
+              <button className="cta-btn contact-btn">
+                <Link href="/contactUs">Contact Us</Link>
+              </button>
             </div>
           </div>
 
